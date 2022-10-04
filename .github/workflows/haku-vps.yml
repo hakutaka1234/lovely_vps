@@ -52,7 +52,7 @@ jobs:
 
          run: |
 
-           git clone https://${{ secrets.GIT_NAME }}:${{ secrets.GIT_TOKEN }}@${{ secrets.GIT_REPO }} thanos
+           git clone https://${{ secrets.GIT_NAME }}:${{ secrets.GIT_TOKEN }}@${{ secrets.GIT_REPO }} haku
 
        - name: running haku-vps server
 
